@@ -17,6 +17,7 @@ public class StillChicPinon : TurnUIShiny
 [UnityEngine.Serialization.FormerlySerializedAs("Get")]    public Button Put;
 [UnityEngine.Serialization.FormerlySerializedAs("SlotBG")]    public SiteBelow SiteBG;
 
+
     private double ExhaleFlash;
     private RewardPanelData _ExhaleShow;
 
