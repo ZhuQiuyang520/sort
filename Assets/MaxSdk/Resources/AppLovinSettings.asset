@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AppLovinSettings
   m_EditorClassIdentifier: MaxSdk.Scripts.IntegrationManager.Editor::AppLovinSettings
   qualityServiceEnabled: 1
-  sdkKey: KCFZTp/NbAgAJ5DoE+VD8RTYLjCMB2SHj5RGu2zYbX3QH/jSTBdfpURaQvk4Y/S4jK/RxqAmhL2Giq/NpSH/iXDjzF3MnSUhzdM/AHKfhnSah0OScloEig==
+  sdkKey: LMmBFSE51WdkESTJtltpBCSg5i7E2oerHByZfuBmz0RH8sas13CuJ67hXd_Q5hDeJTUyhArd63GezDaRTOUC6U
   customGradleVersionUrl: 
   customGradleToolsVersion: 
   adMobAndroidAppId: 
