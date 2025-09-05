@@ -1,0 +1,15 @@
+{
+    "name": "com.skyflyer.external.spine",
+    "version": "3.8.0",
+    "displayName": "Spine",
+    "description": "This plugin provides the spine-unity runtime core.",
+    "unity": "2018.3",
+    "keywords": [
+        "unity"
+    ],
+    "author": {
+        "name": "Skyflyer Dev",
+        "email": "support@skyflyer.dev",
+        "url": "https://www.skyflyer.dev/"
+    }
+}

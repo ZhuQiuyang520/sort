@@ -1,0 +1,290 @@
+﻿[
+  {
+    "group": 1,
+    "id": 0,
+    "color": "#F02692",
+    "topcolor": "#FF5ACF"
+  },
+  {
+    "group": 1,
+    "id": 1,
+    "color": "#9404FF",
+    "topcolor": "#C512FF"
+  },
+  {
+    "group": 1,
+    "id": 2,
+    "color": "#FF98B5",
+    "topcolor": "#FFCFD0"
+  },
+  {
+    "group": 1,
+    "id": 3,
+    "color": "#FFB800",
+    "topcolor": "#FEF37D"
+  },
+  {
+    "group": 1,
+    "id": 4,
+    "color": "#25B0A5",
+    "topcolor": "#56E1D9"
+  },
+  {
+    "group": 1,
+    "id": 5,
+    "color": "#03C31F",
+    "topcolor": "#31F381"
+  },
+  {
+    "group": 1,
+    "id": 6,
+    "color": "#AC9AF1",
+    "topcolor": "#CCBCFF"
+  },
+  {
+    "group": 1,
+    "id": 7,
+    "color": "#CE1F44",
+    "topcolor": "#FF3361"
+  },
+  {
+    "group": 1,
+    "id": 8,
+    "color": "#01B7FB",
+    "topcolor": "#52E7FE"
+  },
+  {
+    "group": 1,
+    "id": 9,
+    "color": "#FF5F33",
+    "topcolor": "#FF9E6C"
+  },
+  {
+    "group": 1,
+    "id": 10,
+    "color": "#FE7604",
+    "topcolor": "#FFC317"
+  },
+  {
+    "group": 1,
+    "id": 11,
+    "color": "#4373ED",
+    "topcolor": "#73B0FF"
+  },
+  {
+    "group": 2,
+    "id": 0,
+    "color": "#3DD5B6",
+    "topcolor": "#72FFEA"
+  },
+  {
+    "group": 2,
+    "id": 1,
+    "color": "#9CEB4C",
+    "topcolor": "#D6FF68"
+  },
+  {
+    "group": 2,
+    "id": 2,
+    "color": "#547EFF",
+    "topcolor": "#7CBBFF"
+  },
+  {
+    "group": 2,
+    "id": 3,
+    "color": "#C96BFA",
+    "topcolor": "#F2B1FF"
+  },
+  {
+    "group": 2,
+    "id": 4,
+    "color": "#FBCB2C",
+    "topcolor": "#FFEF83"
+  },
+  {
+    "group": 2,
+    "id": 5,
+    "color": "#FC7C36",
+    "topcolor": "#FFBE7B"
+  },
+  {
+    "group": 2,
+    "id": 6,
+    "color": "#F1685E",
+    "topcolor": "#FF9E92"
+  },
+  {
+    "group": 2,
+    "id": 7,
+    "color": "#F185CB",
+    "topcolor": "#FFA3F9"
+  },
+  {
+    "group": 2,
+    "id": 8,
+    "color": "#E3E3E3",
+    "topcolor": "#FFFFFF"
+  },
+  {
+    "group": 2,
+    "id": 9,
+    "color": "#D82D60",
+    "topcolor": "#FF3F87"
+  },
+  {
+    "group": 2,
+    "id": 10,
+    "color": "#FFA734",
+    "topcolor": "#FFDA44"
+  },
+  {
+    "group": 2,
+    "id": 11,
+    "color": "#61C2D2",
+    "topcolor": "#76ECFF"
+  },
+  {
+    "group": 3,
+    "id": 0,
+    "color": "#1850FD",
+    "topcolor": "#4080FF"
+  },
+  {
+    "group": 3,
+    "id": 1,
+    "color": "#54DC83",
+    "topcolor": "#73FFAF"
+  },
+  {
+    "group": 3,
+    "id": 2,
+    "color": "#FF5D18",
+    "topcolor": "#FFA14A"
+  },
+  {
+    "group": 3,
+    "id": 3,
+    "color": "#BC00C4",
+    "topcolor": "#FC00FF"
+  },
+  {
+    "group": 3,
+    "id": 4,
+    "color": "#9069FF",
+    "topcolor": "#B383FF"
+  },
+  {
+    "group": 3,
+    "id": 5,
+    "color": "#00DAE3",
+    "topcolor": "#00FFFF"
+  },
+  {
+    "group": 3,
+    "id": 6,
+    "color": "#9CC55A",
+    "topcolor": "#CFFF7A"
+  },
+  {
+    "group": 3,
+    "id": 7,
+    "color": "#FF68A4",
+    "topcolor": "#FF91E1"
+  },
+  {
+    "group": 3,
+    "id": 8,
+    "color": "#FFE03A",
+    "topcolor": "#FFFF4A"
+  },
+  {
+    "group": 3,
+    "id": 9,
+    "color": "#AC43DA",
+    "topcolor": "#EA62FF"
+  },
+  {
+    "group": 3,
+    "id": 10,
+    "color": "#009746",
+    "topcolor": "#2FC363"
+  },
+  {
+    "group": 3,
+    "id": 11,
+    "color": "#A24242",
+    "topcolor": "#DE6262"
+  },
+  {
+    "group": 4,
+    "id": 0,
+    "color": "#AFF68C",
+    "topcolor": "#E2FFB5"
+  },
+  {
+    "group": 4,
+    "id": 1,
+    "color": "#98A8F8",
+    "topcolor": "#C1D5FF"
+  },
+  {
+    "group": 4,
+    "id": 2,
+    "color": "#8DDAF8",
+    "topcolor": "#B3FFFF"
+  },
+  {
+    "group": 4,
+    "id": 3,
+    "color": "#FE9B84",
+    "topcolor": "#FFCDAF"
+  },
+  {
+    "group": 4,
+    "id": 4,
+    "color": "#F7DA6B",
+    "topcolor": "#FFFF84"
+  },
+  {
+    "group": 4,
+    "id": 5,
+    "color": "#75E1C0",
+    "topcolor": "#98FFFA"
+  },
+  {
+    "group": 4,
+    "id": 6,
+    "color": "#D77984",
+    "topcolor": "#FF9FAE"
+  },
+  {
+    "group": 4,
+    "id": 7,
+    "color": "#F08ED1",
+    "topcolor": "#FFB3FF"
+  },
+  {
+    "group": 4,
+    "id": 8,
+    "color": "#E9E6D9",
+    "topcolor": "#FFFFF1"
+  },
+  {
+    "group": 4,
+    "id": 9,
+    "color": "#E2EC98",
+    "topcolor": "#FFFFBC"
+  },
+  {
+    "group": 4,
+    "id": 10,
+    "color": "#CB96F4",
+    "topcolor": "#FBBAFF"
+  },
+  {
+    "group": 4,
+    "id": 11,
+    "color": "#E2B158",
+    "topcolor": "#FFDB6D"
+  }
+]

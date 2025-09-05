@@ -1,0 +1,167 @@
+{
+  "ConfigInfo": [
+    {
+      "Key": "\u672C\u914D\u7F6E\u6587\u4EF6\u8BF4\u660E"
+    },
+    {
+      "Key": "Waste",
+      "Value": "UIPanel\\Common\\Waste"
+    },
+    {
+      "Key": "ZealPinon",
+      "Value": "UIPanel\\ZealPinon"
+    },
+    {
+      "Key": "FirBardBring",
+      "Value": "UIPanel\\FirBardBring"
+    },
+    {
+      "Key": "DawnClubBring",
+      "Value": "UIPanel\\DawnClubBring"
+    },
+    {
+      "Key": "RiskPinon",
+      "Value": "UIPanel\\RiskPinon"
+    },
+    {
+      "Key": "ReckonPinon",
+      "Value": "UIPanel\\ReckonPinon"
+    },
+    {
+      "Key": "TirePinon",
+      "Value": "UIPanel\\TirePinon"
+    },
+    {
+      "Key": "LuckIDPinon",
+      "Value": "UIPanel\\LuckIDPinon"
+    },
+    {
+      "Key": "StepperPinon",
+      "Value": "UIPanel\\StepperPinon"
+    },
+    {
+      "Key": "ClubPinon",
+      "Value": "UIPanel\\ClubPinon"
+    },
+    {
+      "Key": "TrunDiverPinon",
+      "Value": "UIPanel\\TrunDiverPinon"
+    },
+    {
+      "Key": "StillChicPinon",
+      "Value": "UIPanel\\StillChicPinon"
+    },
+    {
+      "Key": "DetectPinon",
+      "Value": "UIPanel\\DetectPinon"
+    },
+    {
+      "Key": "PanelPinon",
+      "Value": "UIPanel\\PanelPinon"
+    },
+    {
+      "Key": "ArabianPinon",
+      "Value": "UIPanel\\ArabianPinon"
+    },
+    {
+      "Key": "CollectEffect",
+      "Value": "UIPanel\\Common\\CollectEffect"
+    },
+    {
+      "Key": "EndlessTreasurePanel",
+      "Value": "UIPanel\\EndlessTreasure\\EndlessTreasurePanel"
+    },
+    {
+      "Key": "CashOutPanel",
+      "Value": "UIPanel\\DiscTedPinon"
+    },
+    {
+      "Key": "NewUserGuidePanel",
+      "Value": "UIPanel\\NewUserGuidePanel"
+    },
+    {
+      "Key": "PortraitRedeemPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\RedeemPanel"
+    },
+    {
+      "Key": "PortraitWithdrawPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\WithdrawPanel"
+    },
+    {
+      "Key": "PortraitConfirmEmailPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\ConfirmEmailPanel"
+    },
+    {
+      "Key": "PortraitRecordPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\RecordPanel"
+    },
+    {
+      "Key": "PortraitGoldAmazonRedeemPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\GoldAmazonRedeemPanel"
+    },
+    {
+      "Key": "PortraitRedeemGiftPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\RedeemGiftPanel"
+    },
+    {
+      "Key": "PortraitAddressPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\AddressPanel"
+    },
+    {
+      "Key": "PortraitInstructionsPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\InstructionsPanel"
+    },
+    {
+      "Key": "PortraitRewardsGiftInstructionPanel",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\RewardsGiftInstructionPanel"
+    },
+    {
+      "Key": "PortraitCollectPuzzle",
+      "Value": "SOHOShop\\UIPanel\\Portrait\\CollectPuzzle"
+    },
+    {
+      "Key": "LandscapeRedeemPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\RedeemPanel"
+    },
+    {
+      "Key": "LandscapeWithdrawPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\WithdrawPanel"
+    },
+    {
+      "Key": "LandscapeConfirmEmailPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\ConfirmEmailPanel"
+    },
+    {
+      "Key": "LandscapeRecordPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\RecordPanel"
+    },
+    {
+      "Key": "LandscapeGoldAmazonRedeemPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\GoldAmazonRedeemPanel"
+    },
+    {
+      "Key": "LandscapeRedeemGiftPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\RedeemGiftPanel"
+    },
+    {
+      "Key": "LandscapeAddressPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\AddressPanel"
+    },
+    {
+      "Key": "LandscapeInstructionsPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\InstructionsPanel"
+    },
+    {
+      "Key": "LandscapeRewardsGiftInstructionPanel",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\RewardsGiftInstructionPanel"
+    },
+    {
+      "Key": "LandscapeCollectPuzzle",
+      "Value": "SOHOShop\\UIPanel\\Landscape\\CollectPuzzle"
+    },
+    {
+      "Key": "MeImageryGritPinon",
+      "Value": "UIPanel\\Test\\MeImageryGritPinon"
+    }
+  ]
+}

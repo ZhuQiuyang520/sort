@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e9f063c101fabc042b1c7ca00c2ccdea
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Scripts/IntegrationManager/Editor/AppLovinSettings.cs
+- al_max_export_path-MaxSdk\Scripts\IntegrationManager\Editor\AppLovinSettings.cs
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

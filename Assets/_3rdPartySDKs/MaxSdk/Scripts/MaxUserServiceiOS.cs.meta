@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 455d22c18af38e84fac493b88b5b3d7e
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Scripts/MaxUserServiceiOS.cs
+- al_max_export_path-MaxSdk\Scripts\MaxUserServiceiOS.cs
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+
+skeleton.png
+size: 314,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_ShowBottle
+  rotate: false
+  xy: 2, 2
+  size: 310, 388
+  orig: 327, 405
+  offset: 9, 10
+  index: -1

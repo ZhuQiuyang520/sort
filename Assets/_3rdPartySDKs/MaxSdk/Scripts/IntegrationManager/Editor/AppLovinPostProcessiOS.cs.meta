@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d778f382a926a6448b89b6c9b859476c
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Scripts/IntegrationManager/Editor/AppLovinPostProcessiOS.cs
+- al_max_export_path-MaxSdk\Scripts\IntegrationManager\Editor\AppLovinPostProcessiOS.cs
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
