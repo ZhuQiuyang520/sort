@@ -87,11 +87,7 @@ public class StepperPinon : TurnUIShiny
 
         Stepper.onClick.AddListener(StepperSnipe);
 
-#if UNITY_ANDROID
-        Version.text = string.Format("Ver 0.{0}({1})", Application.version, PlayerSettings.Android.bundleVersionCode);
-#elif UNITY_IOS
-        Persist.text = string.Format("Ver 0.{0}({1})", Application.version, PlayerSettings.iOS.buildNumber);
-#endif
+        Persist.text = string.Format("Ver 0.{0}({1})", Application.version, 1);
 
         SuspectURL = RatLadyTen.instance.ZealShow.initgamedata.Privacy_Policy;
         ZealImagery.PutCambrian().EyelidConcentrate(Kinetic.GetComponent<RectTransform>());
