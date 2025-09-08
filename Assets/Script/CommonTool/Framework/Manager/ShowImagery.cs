@@ -128,6 +128,8 @@ public class ShowImagery
     //已完成权重关卡
     public const string ReckonEntombBelow= "FinishWeightLevel";
 
+    public const string LevelGuide = "LevelGuide";
+
     public static void AntPuff(string key, int ListCount, int Number)
     {
         PlayerPrefs.SetInt(key + ListCount, Number);

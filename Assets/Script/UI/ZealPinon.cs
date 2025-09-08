@@ -60,6 +60,8 @@ public class ZealPinon : TurnUIShiny
 [UnityEngine.Serialization.FormerlySerializedAs("RewardContent")]
     public Transform ClotheKinetic;
 
+    public Image Mask;
+
     private float DNARimeDiverFlash;
 
     private string BelowTentacle;
@@ -104,6 +106,8 @@ public class ZealPinon : TurnUIShiny
     private string[] AugerLady;
     private string[] BelowStepper;
     private string[] BelowBlame;
+
+    private Sequence WangzhuanSequence;
 
     //道具 和失败 产生的瓶子数量。
     private int BardPierce= 0;
@@ -290,6 +294,20 @@ public class ZealPinon : TurnUIShiny
             ClickMob.gameObject.SetActive(true);
             ClickMob.text = "Only water of the same color can be poured on top of each other";
         }
+        else if (DNABelowID == 3 && PlayerPrefs.GetString(ShowImagery.LevelGuide) == "0")
+        {
+            if (!InnateWine.ItOxide())
+            {
+                Mask.gameObject.SetActive(true);
+                Color MaskColir = new Color();
+                MaskColir.a = 0.85f;
+                Mask.color = MaskColir;
+                WangzhuanSequence = DOTween.Sequence();
+                WangzhuanSequence.Append(SlipApril.transform.DOScale(new Vector3(0.9f, 0.9f, 0.9f), 0.3f).SetLoops(10, LoopType.Yoyo))
+                    .SetDelay(2)
+                    .SetLoops(-1);
+            }
+        }
         else if (DNABelowID == ClubDecode)
         {
             ClubShy.gameObject.SetActive(true);
@@ -358,6 +376,16 @@ public class ZealPinon : TurnUIShiny
         })
         .SetDelay(0.15f)
         .SetLoops(0);
+    }
+
+    public void CloseWangzhuanMask()
+    {
+        if (Mask.gameObject.activeSelf)
+        {
+            Mask.gameObject.SetActive(false);
+            WangzhuanSequence.Kill();
+            SlipApril.transform.localScale = Vector3.one;
+        }
     }
 
     private void PostwarDistance()
@@ -1013,11 +1041,15 @@ public class ZealPinon : TurnUIShiny
             });
         }  
     }
-
     public void ReckonAndCore(Transform StartPostion, double AwardNum)
     {
         if (!InnateWine.ItOxide())
         {
+            PlayerPrefs.SetString(ShowImagery.LevelGuide, "1");
+            if (PlayerPrefs.GetInt(ShowImagery.AcidBelow) == 3)
+            {
+                Mask.gameObject.SetActive(true);
+            }
             int CorePierce= (int)AwardNum / RatLadyTen.instance.ZealShow.diamond_fly_count;
             if (AwardNum % RatLadyTen.instance.ZealShow.diamond_fly_count > 0)
             {
@@ -1025,6 +1057,17 @@ public class ZealPinon : TurnUIShiny
             }
             CurvatureFahrenheit.ReckonSlamPileFrom(CoreSoup, CorePierce, StartPostion, AlaMat, () =>
             {
+                PlayerPrefs.SetString(ShowImagery.LevelGuide, "0");
+                if (DNABelowID == 3)
+                {
+                    Color MaskColir = new Color();
+                    MaskColir.a = 0.85f;
+                    Mask.color = MaskColir;
+                    WangzhuanSequence = DOTween.Sequence();
+                    WangzhuanSequence.Append(SlipApril.transform.DOScale(new Vector3(0.9f, 0.9f, 0.9f), 0.3f).SetLoops(10, LoopType.Yoyo))
+                        .SetDelay(2)
+                        .SetLoops(-1);
+                }
                 ZealShowImagery.PutCambrian().FirDisc(AwardNum);
             });
         }

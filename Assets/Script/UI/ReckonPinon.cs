@@ -200,9 +200,14 @@ public class ReckonPinon : TurnUIShiny
             if (success)
             {
                 MeetFloorGently.PutCambrian().RoofFloor("9003", "3");
+                CurvatureFahrenheit.UnseenPierce(ClothePierce, ClothePierce * RatLadyTen.instance.ZealShow.initgamedata.withdrawn_ad_nums, 0.1f, CreeperTinge, () => {
+                    
+                });
+                CurvatureFahrenheit.UnseenPierce(CoreClothePierce, CoreClothePierce * RatLadyTen.instance.ZealShow.initgamedata.withdrawn_ad_nums, 0.1f, CoreTinge, () => {
+                    AndCore(CoreTinge.transform, CoreClothePierce);
+                });
                 ClothePierce = ClothePierce * RatLadyTen.instance.ZealShow.initgamedata.withdrawn_ad_nums;
                 CoreClothePierce = CoreClothePierce * RatLadyTen.instance.ZealShow.initgamedata.withdrawn_ad_nums;
-                AndCore(CoreTinge.transform, CoreClothePierce);
             }
             else
             {
@@ -326,25 +331,30 @@ public class ReckonPinon : TurnUIShiny
     public void AndCore(Transform StartPostion, double AwardNum)
     {
         int CorePierce= (int)AwardNum / RatLadyTen.instance.ZealShow.coin_fly_count;
-        ZealPinon.instance.ReckonAndCore(CreeperTinge.transform, ClothePierce);
+        
         if (AwardNum % RatLadyTen.instance.ZealShow.coin_fly_count > 0)
         {
             CorePierce += 1;
         }
         CurvatureFahrenheit.SlamPileFrom(CoreSoup, CorePierce, StartPostion, AlaMat, () =>
         {
+            ZealPinon.instance.ReckonAndCore(CreeperTinge.transform, ClothePierce);
+            int oldGold = AcidShowImagery.PutRat(CExcite.Ax_SlamCore);
             ZealShowImagery.PutCambrian().UteSlam(AwardNum);
-            UIImagery.PutCambrian().VagueWetUI();
-            //弹出好评页面
-            if (DNAReckonBelow == RatLadyTen.instance.ZealShow.initgamedata.rateconfig)
-            {
-                UIImagery.PutCambrian().ShunUIShiny(nameof(TirePinon), DNAReckonBelow);
-                UIImagery.PutCambrian().ShunUIShiny(nameof(LuckIDPinon));
-            }
-            else
-            {
-                UIImagery.PutCambrian().ShunUIShiny(nameof(ZealPinon));
-            }
+            CurvatureFahrenheit.UnseenPierce(oldGold, oldGold + AwardNum, 0.1f, CoreBias, () => {
+                UIImagery.PutCambrian().VagueWetUI();
+                //弹出好评页面
+                if (DNAReckonBelow == RatLadyTen.instance.ZealShow.initgamedata.rateconfig)
+                {
+                    UIImagery.PutCambrian().ShunUIShiny(nameof(TirePinon), DNAReckonBelow);
+                    UIImagery.PutCambrian().ShunUIShiny(nameof(LuckIDPinon));
+                }
+                else
+                {
+                    UIImagery.PutCambrian().ShunUIShiny(nameof(ZealPinon));
+                }
+            });
+            
         });
     }
 

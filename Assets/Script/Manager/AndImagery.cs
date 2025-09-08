@@ -67,7 +67,7 @@ public class AndImagery : MonoBehaviour
     {
         if (!DyTaskAnd) { return; }
         // 新增：引导阶段禁止飞行气泡
-        if (PlayerPrefs.GetInt(ShowImagery.AcidBelow) <= 2 || InnateWine.ItOxide())
+        if (PlayerPrefs.GetInt(ShowImagery.AcidBelow) <= 3 || InnateWine.ItOxide())
         {
             return;
         }

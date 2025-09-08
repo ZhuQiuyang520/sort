@@ -87,7 +87,13 @@ public class CashOutPanel : TurnUIShiny
     private void Start()
     {
         CashOutManager.PutCambrian()._CashOutPanel = this;
-        CloseBtn.onClick.AddListener(() => { XenonUILift(nameof(CashOutPanel)); });
+        CloseBtn.onClick.AddListener(() => {
+            if (ZealPinon.instance != null)
+            {
+                PlayerPrefs.SetString(ShowImagery.LevelGuide, "1");
+                ZealPinon.instance.CloseWangzhuanMask();
+            }
+            XenonUILift(nameof(CashOutPanel)); });
         CashOutBtn.onClick.AddListener(() => { OnCashOutBtn(); });
         MoneyName = RatLadyTen.instance.DiscTed_Show.MoneyName;
         InfoText.text = RatLadyTen.instance.DiscTed_Show.Description;
